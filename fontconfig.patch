@@ -1,0 +1,35 @@
+--- a/jdk1.6.0_45/jre/lib/fontconfig.properties.src
++++ b/jdk1.6.0_45/jre/lib/fontconfig.properties
+@@ -49,28 +49,28 @@
+ serif.bolditalic.japanese=MS Mincho
+ serif.bolditalic.korean=Batang
+ 
+-sansserif.plain.alphabetic=Arial
++sansserif.plain.alphabetic=Lucida Sans Regular
+ sansserif.plain.chinese-ms950=MingLiU
+ sansserif.plain.chinese-ms950-extb=MingLiU-ExtB
+ sansserif.plain.hebrew=David
+ sansserif.plain.japanese=MS Gothic
+ sansserif.plain.korean=Gulim
+ 
+-sansserif.bold.alphabetic=Arial Bold
++sansserif.bold.alphabetic=Lucida Sans Demibold
+ sansserif.bold.chinese-ms950=PMingLiU
+ sansserif.bold.chinese-ms950-extb=PMingLiU-ExtB
+ sansserif.bold.hebrew=David Bold
+ sansserif.bold.japanese=MS Gothic
+ sansserif.bold.korean=Gulim
+ 
+-sansserif.italic.alphabetic=Arial Italic
++sansserif.italic.alphabetic=Lucida Sans Italic
+ sansserif.italic.chinese-ms950=PMingLiU
+ sansserif.italic.chinese-ms950-extb=PMingLiU-ExtB
+ sansserif.italic.hebrew=David
+ sansserif.italic.japanese=MS Gothic
+ sansserif.italic.korean=Gulim
+ 
+-sansserif.bolditalic.alphabetic=Arial Bold Italic
++sansserif.bolditalic.alphabetic=Lucida Sans Demibold Italic
+ sansserif.bolditalic.chinese-ms950=PMingLiU
+ sansserif.bolditalic.chinese-ms950-extb=PMingLiU-ExtB
+ sansserif.bolditalic.hebrew=David Bold
