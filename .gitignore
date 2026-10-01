@@ -1,3 +1,6 @@
 # Relatorios de crash da JVM contem dados da maquina - nao versionar
 hs_err_pid*.log
 *.bak-*
+
+# Rascunhos de divulgacao (artigo e post) - nao versionar
+divulgacao/

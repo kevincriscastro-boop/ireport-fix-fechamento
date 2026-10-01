@@ -6,6 +6,12 @@ Correção para o **Jaspersoft iReport Designer 4.0.1** que, no Windows 10/11 at
 A causa é uma incompatibilidade entre o Java 6 embutido no iReport e a versão atual da
 fonte **Arial** do Windows. O conteúdo do relatório não tem nada a ver com o problema.
 
+> **English summary:** iReport Designer 4.0.1 silently closes when opening a `.jrxml` on
+> updated Windows 10/11. The bundled Java 6 crashes in `fontmanager.dll`
+> (`_getGlyphImageFromWindows`) while rendering the current Windows Arial font. Fix: map the
+> `SansSerif` logical font to the Lucida Sans fonts bundled with the JRE, either with
+> [`aplicar-correcao.ps1`](aplicar-correcao.ps1) or manually (see [`fontconfig.patch`](fontconfig.patch)).
+
 ## Sintoma
 
 - O iReport abre normalmente.
@@ -95,3 +101,8 @@ Fica registrado aqui para ninguém repetir:
 
 - Jaspersoft iReport Designer 4.0.1 com JRE embutido 6.0_45-b06 (64 bits)
 - Windows 11
+
+## Autor
+
+Kevin ([@kevincriscastro-boop](https://github.com/kevincriscastro-boop)). Se a correção
+funcionou para você, ou se encontrou outro caso, abra uma *issue*.
